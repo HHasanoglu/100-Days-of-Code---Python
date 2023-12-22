@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ef11ea19-7254-4bd2-8254-16d24a0a0a62</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day-16-CoffeeMachineOOP\Main.py</StartupFile>
+    <StartupFile>Day-25-US-States-Game\US-States.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="Day-15-CoffeeMachine\" />
     <Folder Include="Day-16-CoffeeMachineOOP\" />
+    <Folder Include="Day-25-US-States-Game\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day-15-CoffeeMachine\Main.py" />
@@ -31,6 +32,7 @@
     <Compile Include="Day-16-CoffeeMachineOOP\Menu.py" />
     <Compile Include="Day-16-CoffeeMachineOOP\MenuItem.py" />
     <Compile Include="Day-16-CoffeeMachineOOP\MoneyMachine.py" />
+    <Compile Include="Day-25-US-States-Game\US-States.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
