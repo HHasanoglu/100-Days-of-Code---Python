@@ -26,10 +26,7 @@ while len(GuessedStates)<len(states):
         t.goto(int(row.x),int(row.y))
         t.write(row.state.item())
 
-remainedstates=[]
-for state in states:
-    if state not in GuessedStates:
-        remainedstates.append(state)
+remainedstates=[state for state in states if state not in GuessedStates]
 
 rdata=pandas.DataFrame(remainedstates)
 rdata.to_csv("statestoLearn.csv")
